@@ -68,6 +68,8 @@ jobs:
 
       - name: Install dependencies
         run: |
+          composer config allow-plugins.kylekatarnls/update-helper true || true
+          composer config policy.advisories.block false || true
           composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
           composer update --${{ matrix.dependency-version }} --prefer-dist --no-interaction
 

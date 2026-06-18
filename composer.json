@@ -46,5 +46,10 @@
             "name": "Jeel Sureja"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "config": {
+        "audit": {
+            "abandoned": "ignore"
+        }
+    }
 }
