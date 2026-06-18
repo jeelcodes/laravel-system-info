@@ -1,0 +1,50 @@
+{
+    "name": "jeelcodes/laravel-system-info",
+    "description": "Laravel package to display composer and environment details",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "system-info",
+        "environment",
+        "monitoring"
+    ],
+    "homepage": "https://github.com/jeelcodes/laravel-system-info",
+    "support": {
+        "issues": "https://github.com/jeelcodes/laravel-system-info/issues",
+        "source": "https://github.com/jeelcodes/laravel-system-info"
+    },
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/routing": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.5|^10.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jeelcodes\\LaravelSystemInfo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jeelcodes\\LaravelSystemInfo\\Tests\\": "tests/"
+        }
+    },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Jeelcodes\\LaravelSystemInfo\\SystemInfoServiceProvider"
+            ]
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Jeel Sureja"
+        }
+    ],
+    "minimum-stability": "stable"
+}
