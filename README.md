@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/jeelcodes/laravel-system-info.svg?style=flat-square&cache=clear)](https://packagist.org/packages/jeelcodes/laravel-system-info)
 [![Run tests](https://github.com/jeelcodes/laravel-system-info/actions/workflows/run-tests.yml/badge.svg)](https://github.com/jeelcodes/laravel-system-info/actions/workflows/run-tests.yml)
 
-A powerful and easy-to-use Laravel package to display your application's environment details, server information, and composer package dependencies through a clean user interface.
+A powerful and easy-to-use Laravel package to display your application's environment details, and composer package dependencies through a clean user interface.
 
 ## Features
 
